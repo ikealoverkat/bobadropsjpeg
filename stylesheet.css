@@ -1,0 +1,36 @@
+@font-face {
+    font-family: rainyhearts;
+    src: url(rainyhearts.ttf);
+} 
+
+body {
+    font-family: rainyhearts;
+    background-color: #ccccff;
+    text-align: center;
+    color: #030659;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+div {
+    background-image: linear-gradient(#ffffff, #ffffff7a);
+    padding: 2%;
+    margin: 2%;
+    border-radius: 50px;
+}
+
+span {
+    display: inline-block;
+    background-color: rgba(77, 64, 140, 0.473);
+    margin: 1% 20%;
+    border-radius: 35px;
+}
+
+img {
+    border-radius: 10%;
+    width: 45%;
+    margin: 2%;
+    filter: drop-shadow(5px 5px 5px #030659);
+}
